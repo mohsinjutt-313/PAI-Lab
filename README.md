@@ -47,7 +47,7 @@ AI-Story-Generator/
 │
 └── README.md               # Documentation  
 
----
+
 
 ## ⚙️ Installation
 
