@@ -55,3 +55,55 @@ AI-Story-Generator/
 ```bash
 git clone https://github.com/mohsinjutt-313/ai-story-generator.git
 cd ai-story-generator
+
+### 2. Create Virtual Environment
+
+python -m venv venv
+
+### 3. Activate Environment
+
+Windows:
+
+venv\Scripts\activate
+
+### 4. Install Dependencies
+pip install -r requirements.txt
+
+🔑 API Setup
+
+Create a .env file and add:
+
+API_KEY=your_api_key_here
+
+### ▶️ Run Project
+python app.py
+
+### Open browser:
+
+http://127.0.0.1:5000/
+
+### 🧠 How It Works
+
+User prompt → Flask backend → AI API → Story generation → Display on UI
+
+### 📦 Requirements
+
+flask
+
+requests
+
+python-dotenv
+
+nltk
+
+### 🚀 Future Improvements
+
+Voice input
+
+PDF download story
+
+Story categories
+
+Login system
+
+Multi-language support
